@@ -47,5 +47,13 @@
   }
   h1:hover {
     transform: scale(1.1);
-    color: #a8ecc5;
+    
+  }
+
+  #logo {
+    width: 60px;
+  position: absolute;
+  right: 33%;
+  top: calc(7.3%);
+
   }
