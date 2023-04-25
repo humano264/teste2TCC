@@ -1,4 +1,7 @@
-#background {
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Paytone+One&display=swap');
+
+#background{
     width: 100%;
     height: 100%;
     position: fixed;
@@ -7,6 +10,8 @@
     z-index: -1;
     animation: animate-gradient 20s linear infinite;
   }
+
+
   
   @keyframes animate-gradient {
     0% {
@@ -28,6 +33,40 @@
   
 
 
+  .box1 {
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255,0.16);
+    margin-right: 5px;
+    font-family:'Castoro Titling', cursive;
+    font-family: 'Paytone One', sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 1%;
+  }
+
+  .box2 {
+    width: 50%;
+    height: 80%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255,0.16);
+    margin-left: 5px;
+  }
+
+  .container2 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    margin: 10px;
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  span{
+    margin-left: 40px;
+  }
 
   .container {
     position: relative;
@@ -47,13 +86,6 @@
   }
   h1:hover {
     transform: scale(1.1);
-    
   }
 
-  #logo {
-    width: 60px;
-  position: absolute;
-  right: 33%;
-  top: calc(7.3%);
-
-  }
+ 
