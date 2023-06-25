@@ -61,23 +61,22 @@
 }
 
 @keyframes animate-gradient {
-  0% {
-    background: linear-gradient(to right, #005C97, #363795, #5B41A5, #7F3A98, #A73A64, #DD4C46, #FE9920, #FEC44F, #FBDE6C, #FCFDBF);
-    background-size: 200% 200%;
-    background-position: left;
+    0% {
+      background: linear-gradient(to right, #f6fafd, #b5f1bf, #b8f590, #77d2d8, #7f7dec, #ab80dd);
+      background-size: 200% 200%;
+      background-position: left;
+    }
+    50% {
+      background: linear-gradient(to right, #f6fafd, #b5f1bf, #b8f590, #77d2d8, #7f7dec, #ab80dd);
+      background-size: 200% 200%;
+      background-position: right;
+    }
+    100% {
+      background: linear-gradient(to right, #f6fafd, #b5f1bf, #b8f590, #77d2d8, #7f7dec, #ab80dd);
+      background-size: 200% 200%;
+      background-position: left;
+    }
   }
-  50% {
-    background: linear-gradient(to right, #005C97, #363795, #5B41A5, #7F3A98, #A73A64, #DD4C46, #FE9920, #FEC44F, #FBDE6C, #FCFDBF);
-    background-size: 200% 200%;
-    background-position: right;
-  }
-  100% {
-    background: linear-gradient(to right, #005C97, #363795, #5B41A5, #7F3A98, #A73A64, #DD4C46, #FE9920, #FEC44F, #FBDE6C, #FCFDBF);
-    background-size: 200% 200%;
-    background-position: left;
-  }
-}
-
 nav {
   padding-top: 20px;
   display: flex;
@@ -108,7 +107,7 @@ nav ul li:not(.lg)::after {
   display: block;
   content: '';
   width: 0%;
-  background-color: #ffffff;
+  background-color: #726868;
   transition: 0.5s;
   height: 3px;
 }
@@ -159,7 +158,7 @@ main .main__text h1 b {
 }
 
 main .main__text p {
-  color: #fceaff;
+  color: #2d1f30;
   margin: 20px 0 40px;
   width: 90%;
 }
@@ -193,6 +192,8 @@ main .main__img img {
   nav .menu-icon {
       display: block;
   }
+
+  
 
   nav ul {
       position: fixed;
